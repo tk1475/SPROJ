@@ -1,0 +1,95 @@
+<PAMDataset>
+  <Metadata domain="xml:ESRI" format="xml">
+    <GeodataXform xsi:type="typens:CompositeXform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:typens="http://www.esri.com/schemas/ArcGIS/9.2">
+      <XF_0 xsi:type="typens:PolynomialXform">
+        <PolynomialOrder>1</PolynomialOrder>
+        <SpatialReference xsi:type="typens:ProjectedCoordinateSystem">
+          <WKT>PROJCS[&quot;WGS_1984_UTM_Zone_43N&quot;,GEOGCS[&quot;GCS_WGS_1984&quot;,DATUM[&quot;D_WGS_1984&quot;,SPHEROID[&quot;WGS_1984&quot;,6378137.0,298.257223563]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],PROJECTION[&quot;Transverse_Mercator&quot;],PARAMETER[&quot;False_Easting&quot;,500000.0],PARAMETER[&quot;False_Northing&quot;,0.0],PARAMETER[&quot;Central_Meridian&quot;,75.0],PARAMETER[&quot;Scale_Factor&quot;,0.9996],PARAMETER[&quot;Latitude_Of_Origin&quot;,0.0],UNIT[&quot;Meter&quot;,1.0]]</WKT>
+          <XOrigin>-5120900</XOrigin>
+          <YOrigin>-9998100</YOrigin>
+          <XYScale>450445547.391054</XYScale>
+          <ZOrigin>-100000</ZOrigin>
+          <ZScale>10000</ZScale>
+          <MOrigin>-100000</MOrigin>
+          <MScale>10000</MScale>
+          <XYTolerance>0.001</XYTolerance>
+          <ZTolerance>0.001</ZTolerance>
+          <MTolerance>0.001</MTolerance>
+          <HighPrecision>true</HighPrecision>
+        </SpatialReference>
+        <CoeffX xsi:type="typens:ArrayOfDouble">
+          <Double>428075.823113412</Double>
+          <Double>0.154898728</Double>
+          <Double>-0.0026792919</Double>
+        </CoeffX>
+        <CoeffY xsi:type="typens:ArrayOfDouble">
+          <Double>3482851.61247054</Double>
+          <Double>-0.0027553231</Double>
+          <Double>0.1534978137</Double>
+        </CoeffY>
+        <InverseCoeffX xsi:type="typens:ArrayOfDouble">
+          <Double>-3157033.99447552</Double>
+          <Double>6.45783600486807</Double>
+          <Double>0.112721004177869</Double>
+        </InverseCoeffX>
+        <InverseCoeffY xsi:type="typens:ArrayOfDouble">
+          <Double>-22746579.7525102</Double>
+          <Double>0.115919727397555</Double>
+          <Double>6.51677413947862</Double>
+        </InverseCoeffY>
+      </XF_0>
+      <XF_1 xsi:type="typens:PolynomialXform">
+        <PolynomialOrder>1</PolynomialOrder>
+        <SpatialReference xsi:type="typens:ProjectedCoordinateSystem">
+          <WKT>PROJCS[&quot;WGS_1984_UTM_Zone_43N&quot;,GEOGCS[&quot;GCS_WGS_1984&quot;,DATUM[&quot;D_WGS_1984&quot;,SPHEROID[&quot;WGS_1984&quot;,6378137.0,298.257223563]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],PROJECTION[&quot;Transverse_Mercator&quot;],PARAMETER[&quot;False_Easting&quot;,500000.0],PARAMETER[&quot;False_Northing&quot;,0.0],PARAMETER[&quot;Central_Meridian&quot;,75.0],PARAMETER[&quot;Scale_Factor&quot;,0.9996],PARAMETER[&quot;Latitude_Of_Origin&quot;,0.0],UNIT[&quot;Meter&quot;,1.0]]</WKT>
+          <XOrigin>-5120900</XOrigin>
+          <YOrigin>-9998100</YOrigin>
+          <XYScale>450445547.391054</XYScale>
+          <ZOrigin>-100000</ZOrigin>
+          <ZScale>10000</ZScale>
+          <MOrigin>-100000</MOrigin>
+          <MScale>10000</MScale>
+          <XYTolerance>0.001</XYTolerance>
+          <ZTolerance>0.001</ZTolerance>
+          <MTolerance>0.001</MTolerance>
+          <HighPrecision>true</HighPrecision>
+        </SpatialReference>
+        <SourceGCPs xsi:type="typens:ArrayOfDouble">
+          <Double>428455.96510563</Double>
+          <Double>3482330.81123303</Double>
+          <Double>428424.119445361</Double>
+          <Double>3482474.89979424</Double>
+          <Double>428569.109282929</Double>
+          <Double>3482509.64772547</Double>
+          <Double>428496.987244267</Double>
+          <Double>3482491.1567183</Double>
+        </SourceGCPs>
+        <TargetGCPs xsi:type="typens:ArrayOfDouble">
+          <Double>428449.178325572</Double>
+          <Double>3482332.37741304</Double>
+          <Double>428430.384165414</Double>
+          <Double>3482467.59095418</Double>
+          <Double>428565.597706553</Double>
+          <Double>3482505.1792745</Double>
+          <Double>428499.296085995</Double>
+          <Double>3482488.47335436</Double>
+        </TargetGCPs>
+      </XF_1>
+    </GeodataXform>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Metadata>
+      <MDI key="LAYER_TYPE">athematic</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <Metadata>
+      <MDI key="LAYER_TYPE">athematic</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <Metadata>
+      <MDI key="LAYER_TYPE">athematic</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
