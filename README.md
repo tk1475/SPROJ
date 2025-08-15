@@ -4,15 +4,11 @@ A granular index project for Lahore and its societies, aggregating multiple data
 
 ## 📊 Current Data Progress
 
-| Metric | Value | Status |
-|--------|-------|--------|
-| **Societies Indexed** | 42 | 🏗️ In Progress |
-| **Data Sources** | Zameen.com, Graana.com | 🔗 Active |
-| **Target Location** | Lahore, Pakistan (Society-level) | 🎯 Focused |
-| **Main Dataset** | `lahore_society_index.csv` | 📄 Available |
-| **Last Updated** | July 17, 2025 | 🕐 Current |
+- Graana Data for Societies Lahore
+- Zameen Data for Socieites Lahore
+- Society Maps (in Progress)
+- OSM Graph Data
 
-## 🗂️ Dataset Overview
 
 ### Data Fields Captured:
 - **Society Name** - Lahore societies and neighborhoods
@@ -43,62 +39,6 @@ c:\Rayn\SPROJ\
 └── requirements.txt                # Dependencies
 ```
 
-## 🚀 Quick Start
-
-### 1. Build the Index
-```python
-# In lahore_index_builder.ipynb
-df = build_lahore_society_index(['Zameen', 'Graana'])
-```
-
-### 2. Analyze Index Data
-```python
-analyze_index_data(df)
-```
-
-### 3. Load Existing Index
-```python
-df = load_existing_index('lahore_society_index.csv')
-```
-
-## 📈 Index Statistics
-
-| Property Type | Societies Indexed | Data Coverage |
-|---------------|------------------|--------------|
-| Land Prices | 42 | 100% |
-| Housing Prices | 39 | 93% |
-| Commercial Prices | 28 | 67% |
-| Population Density | 42 | 100% |
-
-## 🗺️ Society Distribution
-
-| Society | Properties Indexed | Population Density |
-|---------|-------------------|-------------------|
-| DHA | 8 | 4,200/km² |
-| Gulberg | 5 | 6,100/km² |
-| Johar Town | 6 | 7,800/km² |
-| Model Town | 4 | 5,900/km² |
-| Cantt | 3 | 3,500/km² |
-| Others | 16 | Varies |
-
-## 💰 Price Range Analysis
-
-| Price Range | Societies | Coverage |
-|-------------|-----------|----------|
-| Under 50 Lac | 18 | 43% |
-| 50 Lac - 1 Crore | 14 | 33% |
-| 1-2 Crore | 7 | 17% |
-| Above 2 Crore | 3 | 7% |
-
-## 🔍 Data Quality Report
-
-| Field | Completion Rate | Data Quality |
-|-------|----------------|--------------|
-| Society Name | 100% | ✅ Excellent |
-| Price | 92% | ✅ Very Good |
-| Population Density | 100% | ✅ Excellent |
-| Location | 98% | ✅ Excellent |
-| Property Type | 95% | ✅ Very Good |
 
 ## 🎯 Features
 
