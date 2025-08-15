@@ -31,23 +31,15 @@ A granular index project for Lahore and its societies, aggregating multiple data
 
 ```
 c:\Rayn\SPROJ\
-├── lahore_index_builder.ipynb      # Main index builder notebook
-├── lahore_society_index.csv        # Society-level index dataset
-├── Data/
-│   └── Source Data/                # Raw datasets from portals
+├── geo-data.ipynb                  # Process all geospatial datasets for now
+├── graana_scraper.ipynb            # scrape graana fata (need to add coordinates too)
+├── zameen_scraper.ipynb            # same as above but for zameen data
+├── geo-data/
+│   └── road-network/               # OSM scraped data (evaluate it)
+│   └── lahore-boundary/            # GIS geojson of Lahore boundary
 ├── README.md                       # This file
 └── requirements.txt                # Dependencies
 ```
-
-
-## 🎯 Features
-
-### ✅ Implemented
-- **Society-level Indexing** - Granular data for Lahore societies
-- **Multi-source Aggregation** - Zameen and Graana integration
-- **Population Density Mapping** - Adds demographic context
-- **Data Validation** - Cross-source checks for accuracy
-- **CSV Export** - Automatic index saving
 
 ### 🔄 In Progress
 - Enhanced society boundary mapping
@@ -73,7 +65,6 @@ requests>=2.25.0
 
 
 
-**Last Updated**: July 17, 2025  
-**Societies Indexed**: 42  
+**Last Updated**: August 16th, 2025  
 **Status**: Active and expanding  
-**Next Update**: Planned for July 24, 2025
+
