@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "model_town",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "bbox_west": 74.3223891, "bbox_south": 31.4818417, "bbox_east": 74.3228982, "bbox_north": 31.4822117, "place_id": 227651320, "osm_type": "way", "osm_id": 507935735, "lat": 31.482102, "lon": 74.3227942, "class": "amenity", "type": "library", "place_rank": 30, "importance": 0.35014937101674926, "addresstype": "amenity", "name": "Model Town Library", "display_name": "Model Town Library, Model Town Circular Road, Model Town, Lahore, Model Town Tehsil, Lahore District, Lahore Division, Punjab, 54600, Pakistan" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 74.3223891, 31.4818916 ], [ 74.3225881, 31.4818417 ], [ 74.3228542, 31.4819917 ], [ 74.3228982, 31.4821824 ], [ 74.3227284, 31.4822117 ], [ 74.3226942, 31.4820215 ], [ 74.3226149, 31.4819886 ], [ 74.3224346, 31.4820208 ], [ 74.3223891, 31.4818916 ] ] ] } }
+]
+}
