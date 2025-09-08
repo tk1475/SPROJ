@@ -1,0 +1,586 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d14" for="edge" attr.name="geometry" attr.type="string" />
+  <key id="d13" for="edge" attr.name="bridge" attr.type="string" />
+  <key id="d12" for="edge" attr.name="length" attr.type="string" />
+  <key id="d11" for="edge" attr.name="reversed" attr.type="string" />
+  <key id="d10" for="edge" attr.name="oneway" attr.type="string" />
+  <key id="d9" for="edge" attr.name="name" attr.type="string" />
+  <key id="d8" for="edge" attr.name="highway" attr.type="string" />
+  <key id="d7" for="edge" attr.name="osmid" attr.type="string" />
+  <key id="d6" for="node" attr.name="street_count" attr.type="string" />
+  <key id="d5" for="node" attr.name="x" attr.type="string" />
+  <key id="d4" for="node" attr.name="y" attr.type="string" />
+  <key id="d3" for="graph" attr.name="simplified" attr.type="string" />
+  <key id="d2" for="graph" attr.name="crs" attr.type="string" />
+  <key id="d1" for="graph" attr.name="created_with" attr.type="string" />
+  <key id="d0" for="graph" attr.name="created_date" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="304206457">
+      <data key="d4">31.4388595</data>
+      <data key="d5">74.2875586</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="304206510">
+      <data key="d4">31.439236</data>
+      <data key="d5">74.2885392</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="304206511">
+      <data key="d4">31.4394877</data>
+      <data key="d5">74.2878819</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="618838952">
+      <data key="d4">31.4365653</data>
+      <data key="d5">74.2909574</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="618838972">
+      <data key="d4">31.4380776</data>
+      <data key="d5">74.2896619</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="3110360066">
+      <data key="d4">31.4369352</data>
+      <data key="d5">74.289058</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="3110360073">
+      <data key="d4">31.4371376</data>
+      <data key="d5">74.2877791</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="3110360074">
+      <data key="d4">31.4367179</data>
+      <data key="d5">74.2889444</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="3110360076">
+      <data key="d4">31.4373723</data>
+      <data key="d5">74.2871626</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="3110360078">
+      <data key="d4">31.4365336</data>
+      <data key="d5">74.2888536</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="3110360079">
+      <data key="d4">31.4361463</data>
+      <data key="d5">74.2898757</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="3110360084">
+      <data key="d4">31.437239</data>
+      <data key="d5">74.2892136</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="3218249681">
+      <data key="d4">31.4370164</data>
+      <data key="d5">74.2902248</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="3218249682">
+      <data key="d4">31.4367647</data>
+      <data key="d5">74.2908859</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="3218249683">
+      <data key="d4">31.4367061</data>
+      <data key="d5">74.2910321</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="3641867260">
+      <data key="d4">31.4369222</data>
+      <data key="d5">74.2883908</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="3646837327">
+      <data key="d4">31.437377</data>
+      <data key="d5">74.2892823</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="3646837328">
+      <data key="d4">31.4381597</data>
+      <data key="d5">74.2871934</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="3646837329">
+      <data key="d4">31.4383326</data>
+      <data key="d5">74.2889648</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="3646837330">
+      <data key="d4">31.4376316</data>
+      <data key="d5">74.2886103</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="3646837331">
+      <data key="d4">31.4383138</data>
+      <data key="d5">74.2890159</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="3646837335">
+      <data key="d4">31.4389276</data>
+      <data key="d5">74.2893351</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="3646839475">
+      <data key="d4">31.4366247</data>
+      <data key="d5">74.2908118</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="3646859919">
+      <data key="d4">31.4368545</data>
+      <data key="d5">74.29022</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="3646859930">
+      <data key="d4">31.4365429</data>
+      <data key="d5">74.2900657</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="6248774687">
+      <data key="d4">31.4375016</data>
+      <data key="d5">74.288526</data>
+      <data key="d6">3</data>
+    </node>
+    <edge source="304206457" target="3646837329" id="0">
+      <data key="d7">315693135</data>
+      <data key="d8">residential</data>
+      <data key="d9">Allah Yar Street</data>
+      <data key="d10">False</data>
+      <data key="d11">True</data>
+      <data key="d12">145.7067237878233</data>
+    </edge>
+    <edge source="304206457" target="304206511" id="0">
+      <data key="d7">360083256</data>
+      <data key="d8">tertiary</data>
+      <data key="d9">Siddiqu-e-Akbar Street</data>
+      <data key="d10">False</data>
+      <data key="d11">False</data>
+      <data key="d12">76.29001426325583</data>
+    </edge>
+    <edge source="304206457" target="3646837328" id="0">
+      <data key="d7">360083256</data>
+      <data key="d8">tertiary</data>
+      <data key="d9">Siddiqu-e-Akbar Street</data>
+      <data key="d10">False</data>
+      <data key="d11">True</data>
+      <data key="d12">85.17918049963647</data>
+    </edge>
+    <edge source="304206510" target="3646837335" id="0">
+      <data key="d7">360083351</data>
+      <data key="d8">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">False</data>
+      <data key="d12">82.9302464896674</data>
+    </edge>
+    <edge source="304206510" target="304206511" id="0">
+      <data key="d7">360083351</data>
+      <data key="d8">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">True</data>
+      <data key="d12">68.35138364932902</data>
+    </edge>
+    <edge source="304206511" target="304206457" id="0">
+      <data key="d7">360083256</data>
+      <data key="d8">tertiary</data>
+      <data key="d9">Siddiqu-e-Akbar Street</data>
+      <data key="d10">False</data>
+      <data key="d11">True</data>
+      <data key="d12">76.29001426325583</data>
+    </edge>
+    <edge source="304206511" target="304206510" id="0">
+      <data key="d7">360083351</data>
+      <data key="d8">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">False</data>
+      <data key="d12">68.35138364932902</data>
+    </edge>
+    <edge source="618838952" target="3646839475" id="0">
+      <data key="d7">360084005</data>
+      <data key="d13">yes</data>
+      <data key="d8">secondary</data>
+      <data key="d10">True</data>
+      <data key="d11">False</data>
+      <data key="d12">15.311480264609562</data>
+    </edge>
+    <edge source="618838972" target="3646837331" id="0">
+      <data key="d7">315693135</data>
+      <data key="d8">residential</data>
+      <data key="d9">Allah Yar Street</data>
+      <data key="d10">False</data>
+      <data key="d11">False</data>
+      <data key="d12">66.67794064028855</data>
+    </edge>
+    <edge source="618838972" target="3218249681" id="0">
+      <data key="d7">[524449287, 315693135]</data>
+      <data key="d8">residential</data>
+      <data key="d9">Allah Yar Street</data>
+      <data key="d10">False</data>
+      <data key="d11">True</data>
+      <data key="d12">182.51186199188697</data>
+      <data key="d14">LINESTRING (74.2896619 31.4380776, 74.2905932 31.4377188, 74.2902248 31.4370164)</data>
+    </edge>
+    <edge source="3110360066" target="3110360074" id="0">
+      <data key="d7">306190507</data>
+      <data key="d8">residential</data>
+      <data key="d9">اسٹریٹ 7</data>
+      <data key="d10">False</data>
+      <data key="d11">False</data>
+      <data key="d12">26.457375444810978</data>
+    </edge>
+    <edge source="3110360066" target="3110360084" id="0">
+      <data key="d7">306190515</data>
+      <data key="d8">residential</data>
+      <data key="d9">Enterance C1</data>
+      <data key="d10">False</data>
+      <data key="d11">False</data>
+      <data key="d12">36.86576667386366</data>
+    </edge>
+    <edge source="3110360066" target="3646859930" id="0">
+      <data key="d7">360085765</data>
+      <data key="d8">residential</data>
+      <data key="d9">اسٹریٹ 2</data>
+      <data key="d10">False</data>
+      <data key="d11">False</data>
+      <data key="d12">105.08563655459137</data>
+    </edge>
+    <edge source="3110360073" target="3110360076" id="0">
+      <data key="d7">359470904</data>
+      <data key="d8">residential</data>
+      <data key="d9">اسٹریٹ 8</data>
+      <data key="d10">False</data>
+      <data key="d11">False</data>
+      <data key="d12">64.04735065597909</data>
+    </edge>
+    <edge source="3110360073" target="3641867260" id="0">
+      <data key="d7">359470904</data>
+      <data key="d8">residential</data>
+      <data key="d9">اسٹریٹ 8</data>
+      <data key="d10">False</data>
+      <data key="d11">True</data>
+      <data key="d12">62.782224105674686</data>
+    </edge>
+    <edge source="3110360074" target="3110360078" id="0">
+      <data key="d7">306190507</data>
+      <data key="d8">residential</data>
+      <data key="d9">اسٹریٹ 7</data>
+      <data key="d10">False</data>
+      <data key="d11">False</data>
+      <data key="d12">22.230237520484323</data>
+    </edge>
+    <edge source="3110360074" target="3110360066" id="0">
+      <data key="d7">306190507</data>
+      <data key="d8">residential</data>
+      <data key="d9">اسٹریٹ 7</data>
+      <data key="d10">False</data>
+      <data key="d11">True</data>
+      <data key="d12">26.457375444810978</data>
+    </edge>
+    <edge source="3110360074" target="3641867260" id="0">
+      <data key="d7">359470904</data>
+      <data key="d8">residential</data>
+      <data key="d9">اسٹریٹ 8</data>
+      <data key="d10">False</data>
+      <data key="d11">False</data>
+      <data key="d12">57.22430248792762</data>
+    </edge>
+    <edge source="3110360076" target="3110360073" id="0">
+      <data key="d7">359470904</data>
+      <data key="d8">residential</data>
+      <data key="d9">اسٹریٹ 8</data>
+      <data key="d10">False</data>
+      <data key="d11">True</data>
+      <data key="d12">64.04735065597909</data>
+    </edge>
+    <edge source="3110360078" target="3110360074" id="0">
+      <data key="d7">306190507</data>
+      <data key="d8">residential</data>
+      <data key="d9">اسٹریٹ 7</data>
+      <data key="d10">False</data>
+      <data key="d11">True</data>
+      <data key="d12">22.230237520484323</data>
+    </edge>
+    <edge source="3110360078" target="3110360079" id="0">
+      <data key="d7">306190512</data>
+      <data key="d8">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">False</data>
+      <data key="d12">106.10356041557242</data>
+    </edge>
+    <edge source="3110360079" target="3110360078" id="0">
+      <data key="d7">306190512</data>
+      <data key="d8">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">True</data>
+      <data key="d12">106.10356041557242</data>
+    </edge>
+    <edge source="3110360079" target="3646859930" id="0">
+      <data key="d7">360085764</data>
+      <data key="d8">residential</data>
+      <data key="d9">اسٹریٹ 1</data>
+      <data key="d10">False</data>
+      <data key="d11">True</data>
+      <data key="d12">47.64184522787121</data>
+    </edge>
+    <edge source="3110360084" target="3646837327" id="0">
+      <data key="d7">306190515</data>
+      <data key="d8">residential</data>
+      <data key="d9">Enterance C1</data>
+      <data key="d10">False</data>
+      <data key="d11">False</data>
+      <data key="d12">16.671770395688362</data>
+    </edge>
+    <edge source="3110360084" target="3110360066" id="0">
+      <data key="d7">306190515</data>
+      <data key="d8">residential</data>
+      <data key="d9">Enterance C1</data>
+      <data key="d10">False</data>
+      <data key="d11">True</data>
+      <data key="d12">36.86576667386366</data>
+    </edge>
+    <edge source="3110360084" target="6248774687" id="0">
+      <data key="d7">360084006</data>
+      <data key="d8">tertiary</data>
+      <data key="d9">Sutlej Avenue</data>
+      <data key="d10">True</data>
+      <data key="d11">False</data>
+      <data key="d12">71.47152562809492</data>
+    </edge>
+    <edge source="3218249681" target="3218249682" id="0">
+      <data key="d7">360083999</data>
+      <data key="d8">tertiary</data>
+      <data key="d9">Sutlej Avenue</data>
+      <data key="d10">True</data>
+      <data key="d11">False</data>
+      <data key="d12">68.68195361029873</data>
+    </edge>
+    <edge source="3218249681" target="618838972" id="0">
+      <data key="d7">[315693135, 524449287]</data>
+      <data key="d8">residential</data>
+      <data key="d9">Allah Yar Street</data>
+      <data key="d10">False</data>
+      <data key="d11">False</data>
+      <data key="d12">182.51186199188697</data>
+      <data key="d14">LINESTRING (74.2902248 31.4370164, 74.2905932 31.4377188, 74.2896619 31.4380776)</data>
+    </edge>
+    <edge source="3218249682" target="3218249683" id="0">
+      <data key="d7">360084000</data>
+      <data key="d13">yes</data>
+      <data key="d8">secondary</data>
+      <data key="d10">True</data>
+      <data key="d11">False</data>
+      <data key="d12">15.324801901087966</data>
+    </edge>
+    <edge source="3218249683" target="618838952" id="0">
+      <data key="d7">319180207</data>
+      <data key="d8">secondary</data>
+      <data key="d9">کالج روڈ</data>
+      <data key="d10">True</data>
+      <data key="d11">False</data>
+      <data key="d12">17.185607342888048</data>
+    </edge>
+    <edge source="3641867260" target="3110360073" id="0">
+      <data key="d7">359470904</data>
+      <data key="d8">residential</data>
+      <data key="d9">اسٹریٹ 8</data>
+      <data key="d10">False</data>
+      <data key="d11">False</data>
+      <data key="d12">62.782224105674686</data>
+    </edge>
+    <edge source="3641867260" target="3110360074" id="0">
+      <data key="d7">359470904</data>
+      <data key="d8">residential</data>
+      <data key="d9">اسٹریٹ 8</data>
+      <data key="d10">False</data>
+      <data key="d11">True</data>
+      <data key="d12">57.22430248792762</data>
+    </edge>
+    <edge source="3646837327" target="3110360084" id="0">
+      <data key="d7">306190515</data>
+      <data key="d8">residential</data>
+      <data key="d9">Enterance C1</data>
+      <data key="d10">False</data>
+      <data key="d11">True</data>
+      <data key="d12">16.671770395688362</data>
+    </edge>
+    <edge source="3646837327" target="3218249681" id="0">
+      <data key="d7">315693137</data>
+      <data key="d8">tertiary</data>
+      <data key="d9">Sutlej Avenue</data>
+      <data key="d10">True</data>
+      <data key="d11">False</data>
+      <data key="d12">97.99649077967896</data>
+    </edge>
+    <edge source="3646837328" target="3646837330" id="0">
+      <data key="d7">315693137</data>
+      <data key="d8">tertiary</data>
+      <data key="d9">Sutlej Avenue</data>
+      <data key="d10">True</data>
+      <data key="d11">False</data>
+      <data key="d12">146.69102219013382</data>
+    </edge>
+    <edge source="3646837328" target="304206457" id="0">
+      <data key="d7">360083256</data>
+      <data key="d8">tertiary</data>
+      <data key="d9">Siddiqu-e-Akbar Street</data>
+      <data key="d10">False</data>
+      <data key="d11">False</data>
+      <data key="d12">85.17918049963647</data>
+    </edge>
+    <edge source="3646837329" target="304206457" id="0">
+      <data key="d7">315693135</data>
+      <data key="d8">residential</data>
+      <data key="d9">Allah Yar Street</data>
+      <data key="d10">False</data>
+      <data key="d11">False</data>
+      <data key="d12">145.7067237878233</data>
+    </edge>
+    <edge source="3646837329" target="3646837331" id="0">
+      <data key="d7">315693135</data>
+      <data key="d8">residential</data>
+      <data key="d9">Allah Yar Street</data>
+      <data key="d10">False</data>
+      <data key="d11">True</data>
+      <data key="d12">5.279460601311068</data>
+    </edge>
+    <edge source="3646837329" target="3646837330" id="0">
+      <data key="d7">360083257</data>
+      <data key="d8">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">False</data>
+      <data key="d12">84.89391893178237</data>
+    </edge>
+    <edge source="3646837330" target="3646837327" id="0">
+      <data key="d7">315693137</data>
+      <data key="d8">tertiary</data>
+      <data key="d9">Sutlej Avenue</data>
+      <data key="d10">True</data>
+      <data key="d11">False</data>
+      <data key="d12">69.75745565014854</data>
+    </edge>
+    <edge source="3646837330" target="6248774687" id="0">
+      <data key="d7">360083257</data>
+      <data key="d8">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">False</data>
+      <data key="d12">16.520341694092007</data>
+    </edge>
+    <edge source="3646837330" target="3646837329" id="0">
+      <data key="d7">360083257</data>
+      <data key="d8">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">True</data>
+      <data key="d12">84.89391893178237</data>
+    </edge>
+    <edge source="3646837331" target="3646837329" id="0">
+      <data key="d7">315693135</data>
+      <data key="d8">residential</data>
+      <data key="d9">Allah Yar Street</data>
+      <data key="d10">False</data>
+      <data key="d11">False</data>
+      <data key="d12">5.279460601311068</data>
+    </edge>
+    <edge source="3646837331" target="618838972" id="0">
+      <data key="d7">315693135</data>
+      <data key="d8">residential</data>
+      <data key="d9">Allah Yar Street</data>
+      <data key="d10">False</data>
+      <data key="d11">True</data>
+      <data key="d12">66.67794064028855</data>
+    </edge>
+    <edge source="3646837331" target="3646837335" id="0">
+      <data key="d7">360083258</data>
+      <data key="d8">residential</data>
+      <data key="d9">Usman Street</data>
+      <data key="d10">False</data>
+      <data key="d11">False</data>
+      <data key="d12">74.66815676320535</data>
+    </edge>
+    <edge source="3646837335" target="3646837331" id="0">
+      <data key="d7">360083258</data>
+      <data key="d8">residential</data>
+      <data key="d9">Usman Street</data>
+      <data key="d10">False</data>
+      <data key="d11">True</data>
+      <data key="d12">74.66815676320535</data>
+    </edge>
+    <edge source="3646837335" target="304206510" id="0">
+      <data key="d7">360083351</data>
+      <data key="d8">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">True</data>
+      <data key="d12">82.9302464896674</data>
+    </edge>
+    <edge source="3646839475" target="3646859919" id="0">
+      <data key="d7">360084006</data>
+      <data key="d8">tertiary</data>
+      <data key="d9">Sutlej Avenue</data>
+      <data key="d10">True</data>
+      <data key="d11">False</data>
+      <data key="d12">61.687313086461565</data>
+    </edge>
+    <edge source="3646839475" target="3218249682" id="0">
+      <data key="d7">1232098902</data>
+      <data key="d8">secondary</data>
+      <data key="d9">کالج روڈ</data>
+      <data key="d10">True</data>
+      <data key="d11">False</data>
+      <data key="d12">17.081097787735107</data>
+    </edge>
+    <edge source="3646859919" target="3110360084" id="0">
+      <data key="d7">360084006</data>
+      <data key="d8">tertiary</data>
+      <data key="d9">Sutlej Avenue</data>
+      <data key="d10">True</data>
+      <data key="d11">False</data>
+      <data key="d12">104.61571369547543</data>
+    </edge>
+    <edge source="3646859919" target="3646859930" id="0">
+      <data key="d7">360085764</data>
+      <data key="d8">residential</data>
+      <data key="d9">اسٹریٹ 1</data>
+      <data key="d10">False</data>
+      <data key="d11">False</data>
+      <data key="d12">37.613969199919545</data>
+    </edge>
+    <edge source="3646859930" target="3110360079" id="0">
+      <data key="d7">360085764</data>
+      <data key="d8">residential</data>
+      <data key="d9">اسٹریٹ 1</data>
+      <data key="d10">False</data>
+      <data key="d11">False</data>
+      <data key="d12">47.64184522787121</data>
+    </edge>
+    <edge source="3646859930" target="3646859919" id="0">
+      <data key="d7">360085764</data>
+      <data key="d8">residential</data>
+      <data key="d9">اسٹریٹ 1</data>
+      <data key="d10">False</data>
+      <data key="d11">True</data>
+      <data key="d12">37.613969199919545</data>
+    </edge>
+    <edge source="3646859930" target="3110360066" id="0">
+      <data key="d7">360085765</data>
+      <data key="d8">residential</data>
+      <data key="d9">اسٹریٹ 2</data>
+      <data key="d10">False</data>
+      <data key="d11">True</data>
+      <data key="d12">105.08563655459137</data>
+    </edge>
+    <edge source="6248774687" target="3646837330" id="0">
+      <data key="d7">360083257</data>
+      <data key="d8">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">True</data>
+      <data key="d12">16.520341694092007</data>
+    </edge>
+    <data key="d0">2025-09-09 01:49:00</data>
+    <data key="d1">OSMnx 2.0.6</data>
+    <data key="d2">epsg:4326</data>
+    <data key="d3">True</data>
+  </graph>
+</graphml>
