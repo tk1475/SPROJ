@@ -29,5 +29,5 @@ yarn-error.log*
 # societies/
 Paper.pdf
 zameen-data/
-notebooks/graphs/
+*.graphml
 new-data
