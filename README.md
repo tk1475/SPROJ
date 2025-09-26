@@ -41,6 +41,38 @@ c:\Rayn\SPROJ\
 └── requirements.txt                # Dependencies
 ```
 
+## Stable Environment (macOS)
+
+To avoid kernel crashes (GEOS/Shapely/PROJ mismatches) and ensure packages like OSMnx and Earth Engine work reliably, use a dedicated environment and Jupyter kernel.
+
+- Conda (recommended):
+	- `conda create -n sproj python=3.11 -y`
+	- `conda activate sproj`
+	- `conda install -c conda-forge geopandas shapely pyproj rtree osmnx folium -y`
+	- `pip install earthengine-api`
+	- `python -m ipykernel install --user --name sproj --display-name "Python (sproj)"`
+	- In notebooks, select the kernel "Python (sproj)".
+
+- venv (alternative):
+	- `python3 -m venv .venv`
+	- `source .venv/bin/activate`
+	- `pip install --upgrade pip`
+	- `pip install geopandas shapely pyproj rtree osmnx folium earthengine-api ipykernel`
+	- `python -m ipykernel install --user --name sproj --display-name "Python (sproj)"`
+
+Earth Engine setup (in the selected kernel):
+
+```python
+import ee
+ee.Authenticate()
+ee.Initialize()
+```
+
+Notes:
+- Avoid using the system Python on macOS for geospatial stacks.
+- Do not install packages inside notebook cells—install them in the environment instead.
+- If OSM queries are large, start with a small subset by setting `MAX_UCS = 5` in `notebooks/osm.ipynb` parameters cell.
+
 ### 🔄 In Progress
 - Enhanced society boundary mapping
 - Commercial property feature extraction
