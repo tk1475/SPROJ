@@ -1,33 +1,44 @@
+# Node.js dependencies
 node_modules/
-.env
-*.log
-dist/
-build/
-*.tmp
-.DS_Store
-*.bak
-*.swp
-.idea/
-.vscode/
-__pycache__/
-*.pyc
-*.pyo
-*.sqlite3
-*.db
-*.tar.gz
-*.zip
-*.egg-info/
-*.coverage
-*.sass-cache/
-*.cache/
-*.lock
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-*
+*.lock
 
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.coverage
 
-# societies/
+# Build outputs
+dist/
+build/
+*.tar.gz
+*.zip
+
+# Editor and IDE files
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*.bak
+
+# Temporary/cache files
+*.tmp
+*.cache/
+.sass-cache/
+*.log
+
+# Databases
+*.sqlite3
+*.db
+
+# Environment files
+.env
+
+# Project-specific ignores
 notebooks/cache/
 notebooks/*.html
 *.gpkg
@@ -36,3 +47,9 @@ zameen-data/
 *.graphml
 new-data
 *.html
+
+# Miscellaneous
+*.bak
+
+# Ignore everything (be careful with this!)
+*
