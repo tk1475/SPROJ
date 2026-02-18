@@ -1,0 +1,39 @@
+
+
+
+2: if include_nl:
+        EQ_cols = ["NDVI_sc", "LST_sc", "NL_sc", "AQI_sc"]
+        EQ_weights = {"NDVI_sc": 0.6, "LST_sc": 0.2, "NL_sc": 0.10, "AQI_sc": 0.1}
+    else:
+        EQ_cols = ["NDVI_sc", "LST_sc", "AQI_sc"]
+        EQ_weights = {"NDVI_sc": 0.6, "LST_sc": 0.3, "AQI_sc": 0.1}
+
+    UD_cols = ["BFP_presence_sc", "Highrise_decay_sc", "Height_sc", "BFP_density_sc", "Road_density_sc"]
+    UD_weights = {
+        "BFP_presence_sc": 0.1,
+        "Highrise_decay_sc": 0.3,
+        "Height_sc": 0.2,
+        "BFP_density_sc": 0.2,
+        "Road_density_sc": 0.2,
+    }
+
+
+
+3: # ==== 6) Compose indices (weighted) ====
+    if include_nl:
+        EQ_cols = ["NDVI_sc", "LST_sc", "NL_sc", "AQI_sc"]
+        EQ_weights = {"NDVI_sc": 0.3, "LST_sc": 0.5, "NL_sc": 0.10, "AQI_sc": 0.2}
+    else:
+        EQ_cols = ["NDVI_sc", "LST_sc", "AQI_sc"]
+        EQ_weights = {"NDVI_sc": 0.4, "LST_sc": 0.4, "AQI_sc": 0.2}
+
+    UD_cols = ["BFP_presence_sc", "Highrise_decay_sc", "Height_sc", "BFP_density_sc", "Road_density_sc"]
+    UD_weights = {
+        "BFP_presence_sc": 0.1,
+        "Highrise_decay_sc": 0.2,
+        "Height_sc": 0.4,
+        "BFP_density_sc": 0.1,
+        "Road_density_sc": 0.2,
+    }
+
+4 : 

@@ -38,18 +38,43 @@ build/
 # Environment files
 .env
 
-# Project-specific ignores
+# Project-specific generated outputs
 notebooks/cache/
+notebooks/_archive/generated_versions/
 notebooks/*.html
+new-data/
+
+# Large/derived geospatial and tabular outputs
 *.gpkg
 *.pdf
-zameen-data/
+*.dbf
+*.cpg
+*.shp
+*.qmd
+*.prj
+*.shx
+*.geojson
 *.graphml
-new-data
+*.png
+*.jpeg
+*.csv
 *.html
 
-# Miscellaneous
-*.bak
+#! Keep only selected ablation images tracked (figs remain ignored)
 
-# Ignore everything (be careful with this!)
-*
+!notebooks/ablations/
+notebooks/ablations/*.png
+!notebooks/ablations/100m_drop_EQ.png
+!notebooks/ablations/100m_drop_UD.png
+!notebooks/ablations/100m_drop_NDVI_sc.png
+!notebooks/ablations/100m_drop_POI_access_sc.png
+
+!notebooks/ablations_weight_scenarios/
+notebooks/ablations_weight_scenarios/*.png
+!notebooks/ablations_weight_scenarios/100m_weights_base.png
+!notebooks/ablations_weight_scenarios/100m_weights_overall_eq_70.png
+!notebooks/ablations_weight_scenarios/100m_weights_ud_vertical_heavy.png
+!notebooks/ablations_weight_scenarios/100m_weights_eq_access_heavy.png
+
+# Large local notebook outputs
+notebooks/POI/access.ipynb
