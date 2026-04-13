@@ -1,9 +1,9 @@
 # Node.js dependencies
 node_modules/
+.next/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-*.lock
 
 # Python artifacts
 __pycache__/
@@ -11,10 +11,15 @@ __pycache__/
 *.pyo
 *.egg-info/
 *.coverage
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
 # Build outputs
 dist/
 build/
+coverage/
 *.tar.gz
 *.zip
 
@@ -30,6 +35,7 @@ build/
 *.cache/
 .sass-cache/
 *.log
+.ipynb_checkpoints/
 
 # Databases
 *.sqlite3
@@ -37,6 +43,7 @@ build/
 
 # Environment files
 .env
+.env.*
 
 # Project-specific generated outputs
 notebooks/cache/
@@ -62,19 +69,16 @@ new-data/
 
 #! Keep only selected ablation images tracked (figs remain ignored)
 
-!notebooks/ablations/
-notebooks/ablations/*.png
-!notebooks/ablations/100m_drop_EQ.png
-!notebooks/ablations/100m_drop_UD.png
-!notebooks/ablations/100m_drop_NDVI_sc.png
-!notebooks/ablations/100m_drop_POI_access_sc.png
 
-!notebooks/ablations_weight_scenarios/
-notebooks/ablations_weight_scenarios/*.png
-!notebooks/ablations_weight_scenarios/100m_weights_base.png
-!notebooks/ablations_weight_scenarios/100m_weights_overall_eq_70.png
-!notebooks/ablations_weight_scenarios/100m_weights_ud_vertical_heavy.png
-!notebooks/ablations_weight_scenarios/100m_weights_eq_access_heavy.png
 
 # Large local notebook outputs
 notebooks/POI/access.ipynb
+
+# Track frontend source, but keep generated spatial outputs ignored
+!frontend/
+!frontend/*.html
+!frontend/*.css
+!frontend/*.js
+!frontend/README.md
+!frontend/scripts/
+!frontend/scripts/*.py

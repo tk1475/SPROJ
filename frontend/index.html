@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HUDI Lahore – Urban Quality Explorer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Serif:wght@600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="layout">
+
+      <!-- ── LEFT SIDEBAR: Layers & Overlays ──────────────────────────── -->
+      <aside class="sidebar">
+
+        <div class="section header-section">
+          <div class="header-logo">HUDI</div>
+          <div>
+            <h1>Lahore Explorer</h1>
+            <p class="muted">Urban Quality Index · 250 m grid</p>
+          </div>
+        </div>
+
+        <!-- Metric choropleth layers -->
+        <div class="section">
+          <div class="section-head">
+            <h2>Metric Layers</h2>
+            <span class="section-badge" id="active-layer-badge" style="display:none"></span>
+          </div>
+          <p class="muted small">Choropleth from the 250 m index grid.</p>
+          <div id="heatmap-controls" class="control-list"></div>
+        </div>
+
+        <!-- Raw overlay toggles -->
+        <div class="section">
+          <div class="section-head"><h2>Overlays</h2></div>
+          <div id="layer-controls" class="control-list"></div>
+        </div>
+
+        <!-- Legend -->
+        <div class="section">
+          <div class="section-head"><h2>Legend</h2></div>
+          <div id="legend" class="legend">
+            <p class="muted small">Activate a layer to see its legend.</p>
+          </div>
+        </div>
+
+      </aside>
+
+      <!-- ── CENTER: Map ───────────────────────────────────────────────── -->
+      <main class="map-shell">
+        <div class="toolbar">
+          <div id="status" class="status-text">Loading…</div>
+          <div class="basemap-switcher">
+            <span class="basemap-label">Basemap</span>
+            <div class="basemap-buttons">
+              <button class="basemap-btn active" data-basemap="osm">Streets</button>
+              <button class="basemap-btn" data-basemap="carto-light">Light</button>
+              <button class="basemap-btn" data-basemap="carto-dark">Dark</button>
+            </div>
+          </div>
+        </div>
+        <div id="map"></div>
+      </main>
+
+      <!-- ── RIGHT PANEL: Index Controls & Style ──────────────────────── -->
+      <aside class="right-panel">
+
+        <!-- Custom Index toggle + description -->
+        <div class="section">
+          <div class="section-head">
+            <h2>Custom Index</h2>
+            <button id="toggle-index" class="button button-primary" type="button">Show Index</button>
+          </div>
+          <p class="muted small" id="index-desc">Adjust weights below. Cells with partial data still render using available metrics.</p>
+        </div>
+
+        <!-- Layer Style — shown when a metric or index layer is active -->
+        <div class="section" id="style-panel-section" style="display:none">
+          <div class="section-head">
+            <h2>Layer Style</h2>
+            <span id="style-layer-name" class="style-layer-tag">—</span>
+          </div>
+
+          <div class="style-row">
+            <span class="style-label">Fill Opacity</span>
+            <span class="style-val" id="sp-opacity-val">85%</span>
+          </div>
+          <input class="style-slider" type="range" id="sp-opacity" min="10" max="100" step="5" value="85" />
+
+          <div class="style-row" style="margin-top:10px">
+            <span class="style-label">Cell Size</span>
+            <span class="style-val" id="sp-scale-val">100%</span>
+          </div>
+          <input class="style-slider" type="range" id="sp-scale" min="50" max="150" step="5" value="100" />
+
+          <div class="style-row" style="margin-top:10px">
+            <span class="style-label">Color Classes</span>
+            <div class="class-btn-group">
+              <button class="class-btn" data-n="3">3</button>
+              <button class="class-btn active" data-n="5">5</button>
+              <button class="class-btn" data-n="7">7</button>
+            </div>
+          </div>
+
+          <div class="style-row" style="margin-top:10px">
+            <span class="style-label">Color Scheme</span>
+          </div>
+          <select class="style-select" id="sp-scheme">
+            <option value="hudi">HUDI (Blue → Maroon)</option>
+            <option value="ndvi">NDVI (Red → Green)</option>
+            <option value="temperature">Temperature (Blue → Red)</option>
+            <option value="aqi">Quality (Green → Red)</option>
+            <option value="nightlights">Night Lights (Dark → Bright)</option>
+            <option value="methane">Methane / Plasma (Purple → Yellow)</option>
+            <option value="seq_orange">Sequential Orange</option>
+            <option value="seq_blue">Sequential Blue</option>
+            <option value="seq_purple">Sequential Purple</option>
+          </select>
+
+          <div class="style-row" style="margin-top:10px">
+            <span class="style-label">Cell Outline</span>
+            <label class="toggle-switch">
+              <input type="checkbox" id="sp-outline-toggle" />
+              <span class="toggle-track"></span>
+            </label>
+          </div>
+          <div id="sp-outline-opts" class="outline-opts" style="display:none">
+            <div class="style-row">
+              <span class="style-label">Outline Color</span>
+              <input type="color" id="sp-outline-color" value="#ffffff" class="color-pick" />
+            </div>
+            <div class="style-row">
+              <span class="style-label">Outline Width</span>
+              <span class="style-val" id="sp-outline-width-val">0.3 px</span>
+            </div>
+            <input class="style-slider" type="range" id="sp-outline-width" min="1" max="30" step="1" value="3" />
+          </div>
+
+          <div class="style-actions">
+            <button id="sp-apply" class="button button-primary" type="button">Apply</button>
+            <button id="sp-reset-style" class="button" type="button">Reset</button>
+          </div>
+        </div>
+
+        <!-- Metric weight sliders -->
+        <div class="section metric-weights-section">
+          <div class="section-head">
+            <h2>Metric Weights</h2>
+            <button id="reset-weights" class="button button-sm" type="button">Reset</button>
+          </div>
+          <div id="metric-controls" class="control-list metric-control-list"></div>
+        </div>
+
+      </aside>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
